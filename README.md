@@ -7,11 +7,11 @@ MultiTabMenu support for Android 2.1(Eclair)+
 
 ```groovy
 repositories{
-    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies{
-    compile 'io.github.iamvaliyev:library:1.0'
+    compile 'com.github.iamvaliyev:MultiTabMenu:1.0.0'
 }
 ```
 ## How to use?
